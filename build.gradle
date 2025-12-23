@@ -1,0 +1,45 @@
+plugins {
+    id("java")
+    id("org.jetbrains.intellij.platform") version "2.10.2"
+    id("org.jetbrains.kotlin.plugin.compose") version "2.1.20"
+}
+
+group = "com.chuntung.plugin"
+version = "1.0.0"
+
+repositories {
+    mavenCentral()
+    intellijPlatform {
+        defaultRepositories()
+    }
+}
+
+// Read more: https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin.html
+dependencies {
+    intellijPlatform {
+        intellijIdea("2025.2.4")
+
+        // Add plugin dependencies for compilation here:
+
+        composeUI()
+    }
+}
+
+intellijPlatform {
+    pluginConfiguration {
+        ideaVersion {
+            sinceBuild = "252.25557"
+        }
+
+        name = "Hide Trial"
+
+        changeNotes = """
+            Initial version
+        """
+    }
+}
+
+tasks.withType(JavaCompile) {
+    sourceCompatibility = "21"
+    targetCompatibility = "21"
+}
