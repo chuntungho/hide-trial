@@ -9,7 +9,7 @@
     <name>Hide Trial</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="ho@chuntung.com" url="https://www.chuntung.com">Chuntung Ho</vendor>
+    <vendor email="ho@chuntung.com" url="https://www.chuntung.com">Chuntung</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
