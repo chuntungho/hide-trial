@@ -44,3 +44,4 @@ bin/
 # Project exclude paths
 /.intellijPlatform/
 /.run/
+/.idea
