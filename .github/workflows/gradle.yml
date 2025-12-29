@@ -17,7 +17,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v5
       - name: Build with Gradle
-        run: ./gradlew buildPlugin
+        run: sh ./gradlew buildPlugin
 
       - name: Upload plugin file
         uses: actions/upload-artifact@v4
