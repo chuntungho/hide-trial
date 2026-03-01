@@ -45,3 +45,4 @@ bin/
 /.intellijPlatform/
 /.run/
 /.idea
+!/.idea/icon.svg

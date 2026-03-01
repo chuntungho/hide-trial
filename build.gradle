@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.chuntung.plugin"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -34,7 +34,7 @@ intellijPlatform {
         name = "Hide Trial"
 
         changeNotes = """
-            Initial version
+            Hide trial widget to free up status bar space.
         """
     }
 }

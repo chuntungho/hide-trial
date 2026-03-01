@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN, cannot be changed between the plugin versions. -->
     <id>com.chuntung.plugin.hidetrial</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
@@ -14,7 +14,7 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        Hide the trial icon to free up toolbar space.
+        Hide the trial widget to free up toolbar or status bar space.
     ]]></description>
 
     <!-- Product and plugin compatibility requirements.
